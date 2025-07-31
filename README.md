@@ -1,13 +1,23 @@
-# Gemini Screen Recorder
+# 🎥 FrameCut — Lightweight Region-Based Screen Recorder
 
-A simple screen recorder application built with Python and Tkinter.
+![FrameCut Banner](https://your-image-link-here.gif) <!-- 🔄 Replace with your actual GIF URL -->
 
-## Features
+**FrameCut** is a simple, efficient, and resolution-customizable screen recording tool written in Python. With a clean GUI and precise region selection, it's ideal for tutorials, demos, bug tracking, or content creation without the bloat of full-screen recorders.
 
-*   Select a screen region to record.
-*   Choose from different resolutions (720p, 1080p, 2160p).
-*   Select the recording frame rate (10, 20, 30, 60 fps).
+---
 
+## ✨ Features
+
+- 🖱️ **Drag to Select Custom Area** of the screen.
+- ⚙️ **Choose Resolution** (720p, 1080p, 2160p).
+- 🎞️ **Set Frame Rate** (10, 20, 30, 60 FPS).
+- 🕒 **Live Recording Timer**.
+- 💡 **Auto Black Padding** to maintain aspect ratio.
+- 💾 **Output in `output.mp4`** using OpenCV.
+- 🪟 **Simple GUI** using Tkinter.
+- 🧵 Multi-threaded recording for performance.
+
+---
 ## Setup and Usage
 
 1.  **Clone the repository:**
@@ -39,3 +49,14 @@ A simple screen recorder application built with Python and Tkinter.
     ```bash
     python gemini_screen_recorder.py
     ```
+
+
+## 📦 Requirements
+
+- Python 3.7 or higher  
+- Windows/macOS/Linux (MSS and Tkinter supported)
+
+### 📥 Install Dependencies
+
+```bash
+pip install opencv-python mss numpy pynput
