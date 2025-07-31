@@ -8,14 +8,14 @@
 
 ## ✨ Features
 
-- 🖱️ **Drag to Select Custom Area** of the screen.
-- ⚙️ **Choose Resolution** (720p, 1080p, 2160p).
-- 🎞️ **Set Frame Rate** (10, 20, 30, 60 FPS).
-- 🕒 **Live Recording Timer**.
-- 💡 **Auto Black Padding** to maintain aspect ratio.
-- 💾 **Output in `output.mp4`** using OpenCV.
-- 🪟 **Simple GUI** using Tkinter.
-- 🧵 Multi-threaded recording for performance.
+- 🖱️ Drag to select custom area
+- 🎞️ Choose frame rate: 10/20/30/60 FPS
+- ⚙️ Set resolution: 720p / 1080p / 2160p
+- 🕒 Live timer display
+- 🖤 Auto black padding for aspect ratio
+- 💾 Output: `output.mp4` (OpenCV)
+- 🪟 GUI: Tkinter-based
+- 🚀 Fast with multi-threaded capture
 
 ---
 ## Setup and Usage
