@@ -54,7 +54,7 @@ class RecordingManager:
                     time.sleep(sleep_time)
 
     def _process_and_save_frames(self):
-        fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+        fourcc = cv2.VideoWriter_fourcc(*"avc1")
         out = cv2.VideoWriter("output.mp4", fourcc, self.selected_fps, (self.output_width, self.output_height))
         frame_duration = 1 / self.selected_fps
         black_frame = np.zeros((self.output_height, self.output_width, 3), dtype=np.uint8)
@@ -97,7 +97,7 @@ class RecordingManager:
 class ScreenRecorderGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Gemini Screen Recorder")
+        self.root.title("FrameCut")
 
         self.region = None
         self.recording_manager = None
@@ -105,6 +105,9 @@ class ScreenRecorderGUI:
         self.setup_ui()
 
     def setup_ui(self):
+        self.root.geometry("422x57")
+        self.root.resizable(False, False)
+
         self.selected_resolution = tk.StringVar(self.root)
         self.selected_resolution.set("1080p")
         self.resolutions = {"720p": (1280, 720), "1080p": (1920, 1080), "2160p": (3840, 2160)}
@@ -113,26 +116,29 @@ class ScreenRecorderGUI:
         self.selected_fps = tk.IntVar(self.root)
         self.selected_fps.set(30)
 
-        self.timer_label = tk.Label(self.root, text="00:00")
-        self.timer_label.pack(pady=5)
+        main_frame = tk.Frame(self.root)
+        main_frame.pack(padx=5, pady=5, fill=tk.BOTH, expand=True)
 
-        self.res_menu = tk.OptionMenu(self.root, self.selected_resolution, *self.resolutions.keys())
-        self.res_menu.pack(pady=5)
+        self.timer_label = tk.Label(main_frame, text="00:00", font=("Arial", 12))
+        self.timer_label.pack(side=tk.LEFT, padx=(0, 10))
 
-        self.fps_menu = tk.OptionMenu(self.root, self.selected_fps, *self.fps_options)
-        self.fps_menu.pack(pady=5)
+        self.res_menu = tk.OptionMenu(main_frame, self.selected_resolution, *self.resolutions.keys())
+        self.res_menu.pack(side=tk.LEFT, padx=5)
 
-        self.btn_new = tk.Button(self.root, text="New Recording", command=self.select_area)
-        self.btn_new.pack(pady=5)
+        self.fps_menu = tk.OptionMenu(main_frame, self.selected_fps, *self.fps_options)
+        self.fps_menu.pack(side=tk.LEFT, padx=5)
 
-        self.btn_start = tk.Button(self.root, text="Start", command=self.start_recording, state=tk.DISABLED)
-        self.btn_start.pack(pady=5)
+        self.btn_new = tk.Button(main_frame, text="New", command=self.select_area)
+        self.btn_new.pack(side=tk.LEFT, padx=5)
 
-        self.btn_stop = tk.Button(self.root, text="Stop", command=self.stop_recording, state=tk.DISABLED)
-        self.btn_stop.pack(pady=5)
+        self.btn_start = tk.Button(main_frame, text="Start", command=self.start_recording, state=tk.DISABLED)
+        self.btn_start.pack(side=tk.LEFT, padx=5)
 
-        self.btn_exit = tk.Button(self.root, text="Exit", command=self.root.quit)
-        self.btn_exit.pack(pady=5)
+        self.btn_stop = tk.Button(main_frame, text="Stop", command=self.stop_recording, state=tk.DISABLED)
+        self.btn_stop.pack(side=tk.LEFT, padx=5)
+
+        self.btn_exit = tk.Button(main_frame, text="Exit", command=self.root.quit)
+        self.btn_exit.pack(side=tk.LEFT, padx=5)
 
     def select_area(self):
         self.root.withdraw()
