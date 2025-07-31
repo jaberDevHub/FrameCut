@@ -60,8 +60,10 @@
 
 ```bash
 pip install opencv-python mss numpy pynput
+---
 
-🤝 Contributing
+
+### 🤝 Contributing
 Got an idea or found a bug? Feel free to fork the repo and submit a pull request!
 
 🔗 Author
