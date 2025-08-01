@@ -115,3 +115,4 @@ audio_temp.wav
 # Batch files
 *.bat
 .history
+.txt

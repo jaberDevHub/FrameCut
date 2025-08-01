@@ -1,0 +1,8 @@
+feat: Improve UI and fix recording freeze issue
+
+This commit addresses the following:
+- Updates the UI to a modern, dark-themed look with improved spacing, padding, and fonts (Segoe UI).
+- Replaces `ttk.OptionMenu` with `ttk.Combobox` for resolution and FPS selection.
+- Implements flat, colored buttons with hover effects as per the design specifications.
+- Fixes the application freezing issue after stopping a recording by offloading video post-processing to a separate thread.
+- Ensures all frames are processed before the recording thread exits.

@@ -137,7 +137,7 @@ class ScreenRecorderGUI:
         self.setup_ui()
 
     def setup_ui(self):
-        self.root.geometry("520x65")
+        self.root.geometry("600x65")
         self.root.resizable(False, False)
         self.root.configure(bg='#2B2B2B')
 
