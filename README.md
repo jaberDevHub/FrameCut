@@ -72,7 +72,7 @@
 
 ```
 FrameCut/
-├── FrameCut_Setup.exe      # 11MB installer (recommended)
+├── FrameCut.exe            # installer (recommended)
 ├── FrameCut.py             # Main application
 ├── FrameCut_Installer.py   # Installer source
 ├── requirements.txt        # Python dependencies
@@ -90,7 +90,6 @@ FrameCut/
 - ✅ Fixed area selection bug
 - ✅ Added 60 FPS fixed mode
 - ✅ Improved UI responsiveness
-- ✅ Reduced file size (11MB installer)
 
 ### **v1.0 - Initial Release**
 - Basic screen recording functionality
@@ -109,11 +108,6 @@ FrameCut/
 ---
 
 ## 🐛 **Troubleshooting**
-
-**Installation Issues:**
-- Ensure Python 3.7+ is installed
-- Run installer as administrator if needed
-- Check internet connection for dependency downloads
 
 **Recording Issues:**
 - Verify area selection is not too small (minimum 10x10 pixels)
