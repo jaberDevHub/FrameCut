@@ -10,7 +10,7 @@
 
 - 🖱️ **Drag to Select Custom Area** of the screen.
 - ⚙️ **Choose Resolution** (720p, 1080p, 2160p).
-- 🎞️ **Set Frame Rate** (10, 20, 30, 60 FPS).
+- 🎞️ 60 FPS Frame Rate
 - 🕒 **Live Recording Timer**.
 - 💡 **Auto Black Padding** to maintain aspect ratio.
 - 💾 **Output in `output.mp4`** using OpenCV.
