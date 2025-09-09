@@ -1,70 +1,57 @@
-# 🎥 FrameCut — Lightweight Region-Based Screen Recorder
+# 🎥 FrameCut — Lightweight Screen Recorder
+[![Windows](https://img.shields.io/badge/OS-Windows%2010-lightgrey)]()
+[![Version](https://img.shields.io/badge/Version-v2.0-green)]()
 
-![FrameCut Banner](https://your-image-link-here.gif) <!-- 🔄 Replace with your actual GIF URL -->
 
-**FrameCut** is a simple, efficient, and resolution-customizable screen recording tool written in Python. With a clean GUI and precise region selection, it's ideal for tutorials, demos, bug tracking, or content creation without the bloat of full-screen recorders.
-
----
-
-### ✨ **Key Improvements**
-- **Instant Stop Button** - No more lag when stopping recordings
-- **60 FPS Fixed** - Optimal performance with high-quality recording
-- **Fast Export** - Ultrafast encoding with multi-threading
-- **Single-Click Area Selection** - Fixed double-click bug
-- **Responsive UI** - Smooth, non-blocking interface
+**FrameCut** is a lightweight, user-friendly screen recorder written in Python.  
+Unlike bulky full-screen recorders, FrameCut lets you select a specific area, choose resolution and FPS, and save videos in MP4 format optimized for sharing on any platform (WhatsApp, YouTube, etc.).
 
 ---
 
-## 📦 **Installation Options**
+## ✨ **Features**
 
-### **Option 1: Quick Installer (Recommended) - 11MB**
-1. Download `FrameCut_Setup.exe` (11MB)
-2. Run the installer - it will automatically install dependencies
-3. Click "Run FrameCut" when installation completes
-
-
----
-
-## 🎯 **Features**
-
-### **Recording**
-- **High-Quality 60 FPS** recording
-- **Custom Area Selection** with visual feedback
-- **Real-time Timer** display
-- **Instant Stop** with fast processing
-
-### **Performance**
-- **Pre-calculated Frame Processing** - No runtime calculations
-- **Optimized Memory Usage** - Reduced queue size
-- **Multi-threaded Encoding** - Uses all CPU cores
-- **H.264 Codec** with fallback support
-
-### **User Experience**
-- **Modern Dark UI** with smooth animations
-- **Single-Click Operations** - No double-clicking needed
-- **Progress Feedback** - Clear status updates
-- **Error Handling** - Graceful fallbacks
-
----
-
-## 🔧 **Technical Specifications**
-
-- **Video Codec**: H.264 (with mp4v fallback)
-- **Frame Rate**: Fixed 60 FPS for optimal performance
-- **Resolutions**: 720p, 1080p, 2160p
-- **Encoding**: Ultrafast preset with multi-threading
-- **File Format**: MP4 with fast-start optimization
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Custom Area Selection** | Capture exactly the screen region you want |
+| ⚡ **Flexible FPS** | 30 or 60 FPS for smooth recording |
+| 🖥 **Multiple Resolutions** | 720p, 1080p, 2160p (4K) output |
+| ⏱ **Live Timer** | Shows elapsed recording time in real-time |
+| 🛑 **One-Click Stop** | Stop recording instantly without freezing |
+| 💾 **Optimized MP4 Output** | H.264 encoded for maximum compatibility |
+| 📂 **Auto Folder Open** | Opens save folder automatically when done |
 
 ---
 
 
-## 🚀 **Quick Start**
+## **📦 Installation Options**
 
-1. **Download** `FrameCut.exe`
-2. **Run** the installer
-3. **Select** recording area
-4. **Click** Start to begin recording
-5. **Click** Stop for instant save
+1. Download `FrameCut.exe`  
+2. Run the installer (it will automatically install dependencies)  
+3. Click **Run FrameCut** when installation completes  
+
+---
+
+## **🔧 Technical Specifications**
+
+* **Language**: Python 3  
+* **Libraries/Dependencies**: `opencv-python`, `mss`, `numpy`, `tkinter`, `pynput`  
+* **Supported OS**: Windows 10/11 (64-bit recommended)  
+* **Video Codec**: H.264 (MP4 with mp4v fallback)  
+* **File Format**: MP4 with fast-start optimization  
+* **Frame Rate**: 30 or 60 FPS  
+* **Resolutions**: 720p, 1080p, 2160p (4K)  
+* **Encoding**: Ultrafast preset with multi-threading  
+* **Recording Method**: Region-based screen capture with in-memory frame buffering  
+
+---
+
+## **📖 How to Use FrameCut**
+
+1. **Launch the Application** — Open FrameCut from your desktop or start menu  
+2. **Select Area** — Click and drag to define the screen region you want to record  
+3. **Choose Settings** — Select **Resolution** (720p, 1080p, or 4K) and **FPS** (30 or 60)  
+4. **Start Recording** — Click **Start Recording** to begin capture; live timer will show elapsed time  
+5. **Stop Recording** — Click **Stop Recording** to end; video file is saved immediately and the folder opens automatically  
 
 ---
 
@@ -72,24 +59,21 @@
 
 ```
 FrameCut/
-├── FrameCut.exe            # installer (recommended)
 ├── FrameCut.py             # Main application
-├── FrameCut_Installer.py   # Installer source
-├── requirements.txt        # Python dependencies
-├── icon1.png              # Application icon
 └── README.md              # This file
 ```
 
 ---
 
-## 🔄 **Version History**
-
+## 🔄 Version History
 ### **v2.0 - Optimized Release**
-- ✅ Fixed stop button lag
-- ✅ Optimized frame processing
-- ✅ Fixed area selection bug
-- ✅ Added 60 FPS fixed mode
-- ✅ Improved UI responsiveness
+
+- ✅ Added region-based selection
+- ✅ Multiple FPS options (30/60)
+- ✅ Multiple resolutions (720p/1080p/2160p)
+- ✅ Improved UI design
+- ✅ Optimized MP4 output for WhatsApp, YouTube, etc.
+- ✅ Basic recording with fixed resolution and FPS
 
 ### **v1.0 - Initial Release**
 - Basic screen recording functionality
@@ -98,38 +82,12 @@ FrameCut/
 
 ---
 
-## 💡 **Tips for Best Performance**
-
-1. **Close unnecessary applications** before recording
-2. **Use 1080p resolution** for best quality/performance balance
-3. **Ensure sufficient disk space** for recordings
-4. **Keep FFmpeg updated** for optimal encoding
-
----
-
-## 🐛 **Troubleshooting**
-
-**Recording Issues:**
-- Verify area selection is not too small (minimum 10x10 pixels)
-- Check available disk space
-- Restart application if UI becomes unresponsive
-
----
-
-## 📞 **Support**
-
-For issues or questions:
-1. Check this README for common solutions
-2. Verify system requirements are met
-3. Try reinstalling with the setup executable
-
----
 
 **Enjoy fast, smooth screen recording with FrameCut! 🎬**
 
 ### 🔗 Author
 Created by Jaber Ahmed
-### 🔗 Portfolio: jaberdevhub.surge.sh
+### 🔗 Email: jabarahmed332@gmail.com
 📧 Reach out for collaboration or feature requests!
 
 
