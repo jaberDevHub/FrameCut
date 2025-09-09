@@ -73,7 +73,7 @@ Unlike bulky full-screen recorders, FrameCut lets you select a specific area, ch
 ---
 
 
-🔽 **Download**
+🔽 **Download FrameCut**
 
 [![Download FrameCut v0.2](https://img.shields.io/badge/Download-FrameCut%20v0.2-blue?style=for-the-badge)](https://github.com/jaberDevHub/FrameCut/releases/download/v0.2/FrameCut.exe)
 
