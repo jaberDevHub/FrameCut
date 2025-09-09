@@ -55,16 +55,6 @@ Unlike bulky full-screen recorders, FrameCut lets you select a specific area, ch
 
 ---
 
-## 📁 **File Structure**
-
-```
-FrameCut/
-├── FrameCut.py             # Main application
-└── README.md              # This file
-```
-
----
-
 ## 🔄 Version History
 ### **v2.0 - Optimized Release**
 
@@ -83,11 +73,13 @@ FrameCut/
 ---
 
 
-**Enjoy fast, smooth screen recording with FrameCut! 🎬**
-
 ### 🔗 Author
 Created by Jaber Ahmed
 ### 🔗 Email: jabarahmed332@gmail.com
 📧 Reach out for collaboration or feature requests!
+
+---
+
+**Enjoy fast, smooth screen recording with FrameCut! 🎬**
 
 
