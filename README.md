@@ -73,13 +73,16 @@ Unlike bulky full-screen recorders, FrameCut lets you select a specific area, ch
 ---
 
 
+🔽 **Download FrameCut v0.2**
+
+[![Download FrameCut v0.2](https://img.shields.io/badge/Download-FrameCut%20v0.2-blue?style=for-the-badge)](https://github.com/jaberDevHub/FrameCut/releases/download/v0.2/FrameCut.exe)
+
+
+---
+
+
 ### 🔗 Author
 Created by Jaber Ahmed
 ### 🔗 Email: jabarahmed332@gmail.com
 📧 Reach out for collaboration or feature requests!
-
----
-
-**Enjoy fast, smooth screen recording with FrameCut! 🎬**
-
 
