@@ -5,6 +5,7 @@
 [![Download](https://img.shields.io/badge/Download-FrameCut-blue?style=for-the-badge)](https://github.com/jaberdevhub/FrameCut/releases)    
 
 [![Python](https://img.shields.io/badge/Python-3.7+-green?style=flat-square)](https://python.org) [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=flat-square)](#license)
 
 ## 🤔 What is FrameCut?
 
@@ -64,6 +65,16 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 - Variable FPS (30/60 FPS)
 - Custom save directory
 - Enhanced UI
+
+---
+## 📄 License
+
+**Copyright © 2025 Jaber Ahmed. All Rights Reserved.**
+
+This software is proprietary and confidential. Unauthorized copying, distribution, modification, public display, or public performance of this software is strictly prohibited without explicit written permission from the author.
+
+**Permitted:** Personal use only  
+**Prohibited:** Commercial use, redistribution, modification, reverse engineering, selling
 
 ---
 
