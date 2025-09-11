@@ -73,4 +73,14 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 
 ---
 
+
+# 🎥 Demo
+
+
+
+  
+  Your browser does not support the video tag.
+</video>
+
+
 **Created by [Jaber Ahmed](https://jaberdevhub.surge.sh)** • [Report Issues](https://github.com/jaberdevhub/FrameCut/issues)
