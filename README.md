@@ -1,4 +1,4 @@
-# 🎥 FrameCut
+# <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/1974f84f-140f-4d4c-a802-8139e85d3cf2" /> **FrameCut**
 
 > **Lightweight region-based screen recorder for Windows**
 
