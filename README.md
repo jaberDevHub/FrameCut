@@ -44,12 +44,8 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 5. **Stop & Save** → Click red "Stop" button when done
 
 ## 🛠️ System Requirements
-
 - **OS:** Windows 10/11
-- **RAM:** 4GB minimum
-- **Storage:** 100MB+ free space
-- **Optional:** FFmpeg (for enhanced processing)
-
+  
 ## 🎯 Perfect For
 
 - 📚 **Tutorial Creation**
@@ -68,12 +64,6 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 - Variable FPS (30/60 FPS)
 - Custom save directory
 - Enhanced UI
-
-### 🐛 Bug Fixes
-- Improved antivirus compatibility
-- Better error handling
-- Fixed memory leaks
-- Enhanced thread safety
 
 ---
 
