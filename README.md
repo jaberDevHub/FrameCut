@@ -11,6 +11,10 @@
 
 FrameCut is a **fast, simple screen recorder** that lets you record any area of your screen with precision. Perfect for creating tutorials, demos, or capturing bugs without the bloat of heavyweight recording software.
 
+<img width="1080" height="810" alt="image" src="https://github.com/user-attachments/assets/f9263dbb-9e1d-4ddc-a904-4991bd10fa49" />
+
+
+
 ## ⚡ Why Choose FrameCut?
 
 - **🎯 Precise Area Selection** - Record exactly what you want
