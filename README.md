@@ -62,7 +62,7 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 
 ---
 
-## 📋 Latest Release (v0.2)
+## 📋 Latest Release (v0.2) (2025-07-25)
 
 ### 🆕 New Features
 - Encoder selection (H264/MP4V)
@@ -72,6 +72,24 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 - Enhanced UI
 
 ---
+
+
+## 📋 Latest Release — v0.3 (2026-01-22)
+
+### ✨ Features
+- High-performance FFmpeg live piping recording engine
+- Hardware acceleration support (NVENC / QSV / AMF)
+- Built-in audio recording (**new — not available in v0.2**)
+- Automatic output folder opening after recording
+- Standalone portable mode (bundled `ffmpeg.exe`, no PATH setup)
+- Extended frame buffer (600 frames) for stability
+
+### 🛠️ Bug Fixes
+- Fixed severe frame drops in high-bitrate recordings
+- Resolved audio sync issues in long sessions
+- Eliminated memory leaks in audio streaming
+- Improved UI responsiveness during finalization
+
 
   
   Your browser does not support the video tag.
