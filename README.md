@@ -90,6 +90,21 @@ FrameCut is a **fast, simple screen recorder** that lets you record any area of 
 - Eliminated memory leaks in audio streaming
 - Improved UI responsiveness during finalization
 
+## 📋 Latest Release — v0.4 (2026-04-12)
+
+### ✅ Major Improvements
+ - Fixed close and exit freezing and “Not Responding” behavior
+ - Improved stop-recording and finalization flow
+ - Restored working audio recording
+ - Restored automatic output-folder opening after save
+ - Faster and safer shutdown handling
+
+###  🛠 Fixes
+ - Fixed blocking discard and cancel cleanup path
+ - Improved FFmpeg timeout and failure fallback behavior
+ - Better cleanup of temporary recording files
+ - Improved save reliability after recording stops
+
 
   
   Your browser does not support the video tag.
